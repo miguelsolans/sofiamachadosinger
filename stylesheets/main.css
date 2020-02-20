@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("../images/IMG_5301.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background-position: center bottom;!*/
+}
+
+
+/* Fontawesome Social Links */
+.fa-instagram {
+    font-size: 30px;
+    color: white;
+}
+.fa-facebook-square {
+    font-size: 20px;
+    color: white;
+}
+
+.nav-link a {
+    color: #ffffff;
+}
+
+#navigation {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+/* Parallax Images */
+.parallax {
+    min-height: 500px;
+    background-image: url("../images/IMG_5339.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -285px;
+}
+
+a.nav-link {
+    color: #fff;
+}
+
+.black-background {
+    background-color: #19303F;
+}
+
+/* Form Styling */
+.form-control {
+    background-color: #465965;
+    color: #fff;
+}
+.form-control:focus {
+    border-color: #FF0000;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
